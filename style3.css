@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;}
+a {
+    text-decoration: none;
+    color: #232323;
+}
+nav {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99;
+}
+.nav_content {
+    max-width: 1600px;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav .logo {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 2px;
+}
+.nav_content ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+}
+ul li a {
+    color: white;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+ul li a:hover {
+    color: white;
+    border: 1px solid rebeccapurple;
+    background: transparent;
+}
+.section_contain1 {
+    position: relative;
+    text-align: justify;
+    color: white;
+    background-color: #232323;
+}
+.image1 {
+    place-items: center;
+}
+.image1 img {
+    width: max(25rem, 100%);
+    height: 25rem;
+    object-fit: cover;
+    border: 1px solid aliceblue;
+}
+.title1 {
+    background-color: #333;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 17%;
+    left: 16px;
+}
+.desc1 {
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.content1 {
+    padding: 1rem;
+}
+.sub-title1, .sub-title2, .sub-title3, .sub-title4 {
+    color: #95A5A6;
+    margin-bottom: 0.5rem;
+}
+.desc2, .desc3, .desc4, .desc5 {
+    color: white;
+    margin-bottom: 1rem;
+}
+.section .section_contain1 .content1 .desc3 li, .desc4 li {
+    list-style-type: square;
+    list-style-position: outside;
+    padding-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+.content1 .visit {
+    text-decoration: underline;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+.content1 .visit a {
+    background-color: rebeccapurple;
+    padding: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.content1 .visit a:hover {
+    border: 1px solid rebeccapurple;
+    background-color: transparent;
+    color: rebeccapurple;
+    text-decoration: underline;
+    text-decoration-color: rebeccapurple;
+}
+footer {
+    color: white;
+    background-color: #333;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
